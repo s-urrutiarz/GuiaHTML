@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+     <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Nutricion del cerebro</title>   
+        <meta name="autor" content="Sebastian Urrutia">
+        <meta name="keywords" content="nutrición; cerebro, comportamiento"> 
+     </head>
+     <style>
+         .titulo{
+             text-align: center;
+             font-size: 40px;
+             background-color: blue;
+             color: white;
+             border-style: solid ;
+         }
+         .texto{
+             font-size:20px;
+             text-align: justify;  
+             width: 950px;
+             margin:30px auto;
+             border: 10px ridge #0984e3;
+             padding: 40px;
+             font-family:Georgia;
+         }
+         table,td, th, tr{
+             border: 1px solid black;
+             padding: 5px 20px;
+             text-align: center;
+             margin: 0 auto;
+         }
+         .caracteriticas{
+             background: rgb(106, 186, 240);
+             font-size: 18px;
+         }
+         .imagen{
+            text-align: center;
+         }
+         footer{
+             text-align: center;
+             color: white;
+             background-color: #0984e3 ;
+             padding: 10px;
+
+         }
+         
+     </style>
+
+
+<body>
+    <div>
+        <div>
+            <div>
+                <h1 class="titulo">El problema de la mala alimentación en cuarentena</h1>
+                <p class="texto">Muchas veces en situaciones de estrés, angustia o ansiedad tendemos a percibir alteraciones en nuestra forma de alimentarnos. La pandemia se ha presentado como un escenario de muchas emociones, en donde nos hemos visto obligados a cambiar nuestra rutina diaria y estilo de vida, por ende, nuestros horarios y modos de alimentación también se han visto.<br>Según la Encuesta de Consumo de alimentos y ansiedad durante la cuarentena por Covid-19 en Iberoamérica, a cuyos resultados accedió La Tercera, el 44% de los encuestados 1.722 personas reconoce haber subido de peso durante el confinamiento. Esta cifra es mayor a la del promedio de los once países consultados, que es de 39% .<br>Tener que mantener el orden e higiene, mientras se está en teletrabajo y los niños están con clases online en el hogar, muchas veces sin espacio personal para todos. En un panorama donde se presentan dificultades económicas y posibles dudas laborales. En conjunto al miedo de contagiarse y a la incertidumbre de no saber cuándo va a mejorar la situación, es, sin lugar a dudas, un momento donde vivimos alteraciones emocionales que, muchas veces, se intentan saciar con comida.</p>
+
+            </div>
+            <div class="tabla">
+                 <table >
+                    <tr class="caracteriticas">
+                        <th>Nombre</th>
+                        <th>Precio</th> 
+                        <th>Supermercado</th>
+                        <th>Oferta</th>
+                        <th>Fuente</th>
+                    </tr>
+                    <tr class="producto">
+                        <td>Pechuga Deshuesada de Pollo 850 g. Ariztía</td>
+                        <td class="precio_final">$ 3.690</td> 
+                        <td>Lider</td>
+                        <td>No</td>
+                        <td><a href="https://www.lider.cl/supermercado/">Lider.cl</a></td>
+                    </tr>
+                    <tr class="producto">
+                        <td>Huevo extra blanco 20 un. Yemita</td>
+                        <td class="precio_final">$ 4.199</td> 
+                        <td>Jumbo</td>
+                        <td>No</td>
+                        <td><a href="https://www.jumbo.cl/">Jumbo.cl</a></td>
+                    </tr>
+                    <tr class="producto">
+                        <td>Leche Capuchino Protein Sin Lactosa. Loncoleche</td>
+                        <td class="precio_final">$ 1.699</td> 
+                        <td>Tottus</td>
+                        <td>Si</td>
+                        <td><a href="https://www.tottus.cl/">Tottus.cl</a></td>
+                    </tr>
+                    <tr class="producto">
+                        <td>Quínoa Doypack 400g. Banquete</td>
+                        <td class="precio_final">$ 2.990</td> 
+                        <td>Lider</td>
+                        <td>No</td>
+                        <td><a href="https://www.lider.cl/supermercado/">Lider.cl</a></td>
+                    </tr>
+                    <tr class="producto">
+                        <td>Arroz Integral Banquete 400 g. Banquete</td>
+                        <td class="precio_final">$ 1.290</td> 
+                        <td>Jumbo</td>
+                        <td>Si</td>
+                        <td><a href="https://www.jumbo.cl/">Jumbo.cl</a></td>
+                    </tr>
+                    <tr class="producto">
+                        <td>Avena tradicional 850 g. Quaker</td>
+                        <td class="precio_final">$ 1.690</td> 
+                        <td>Jumbo</td>
+                        <td>Si</td>
+                        <td><a href="https://www.jumbo.cl/">Jumbo.cl</a></td>
+                    </tr>
+                    <tr class="producto">
+                        <td>Aceite Oliva Premium extra 1L. Huasco</td>
+                        <td class="precio_final">$ 6.990</td> 
+                        <td>Tottus</td>
+                        <td>No</td>
+                        <td><a href="https://www.tottus.cl/">Tottus.cl</a></td>
+                    </tr>
+                    <tr class="producto">
+                        <td>$ Atun lomitos. Van camps </td>
+                        <td class="precio_final">$ 1.690</td> 
+                        <td>Lider</td>
+                        <td>No</td>
+                        <td><a href="https://www.lider.cl/supermercado/">Lider.cl</a></td>
+                    </tr>
+                    <tr class="producto">
+                        <td>Spaghettini N°9 Divella 500 g</td>
+                        <td class="precio_final">$ 1.549</td> 
+                        <td>Jumbo</td>
+                        <td>Si</td>
+                        <td><a href="https://www.jumbo.cl/">Jumbo.cl</a></td>
+                    </tr>
+                    <tr class="producto">
+                        <td>Lomo liso natural al vacío kg</td>
+                        <td class="precio_final">$ 20.787</td> 
+                        <td>Tottus</td>
+                        <td>No</td>
+                        <td><a href="https://www.tottus.cl/">Tottus.cl</a></td>
+                    </tr>
+                 </table>
+            
+            </div>
+
+        </div>
+
+
+        <div class="imagen"> 
+            <img src="https://www.centropsicologicocpc.es/wp-content/uploads/2016/03/alimentos-combinarse-balance-adecuado-aminoacidos_LPRIMA20160312_0093_34@2x.jpg" 
+            alt="imagen de cerebro" width="400" height="400" >
+        </div>
+    </div>
+    <footer>Derechos Reservados Sebastian Urrutia R. 1998-2020</footer>
+
+
+
+</body>
